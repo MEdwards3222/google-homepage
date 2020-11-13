@@ -7,8 +7,43 @@
         ul {
             list-style-type: none;
             margin: 0;
-            padding: 0;
+            padding: 0px;
+            overflow: hidden;
+            
         }
+        
+        li {
+            display: inline;
+            float: left;
+        }
+
+        li a {
+            display: block;
+            text-align: center;
+            padding: 12px 12px;
+            text-decoration: none;
+        }
+
+        .GoogleSearch {
+            position: relative;
+        }
+
+        .GoogleLogo {
+        }
+
+        .textbar {
+            border: none;
+            padding: 10px;
+            margin: 10px;
+            height: 20px;
+            width: 500px;
+            border: 1px solid #eaeaea;
+        }
+
+        .footer {
+            
+        }
+
     </style>
 </head>
 <body>
@@ -16,27 +51,26 @@
         <ul>
             <li><a href=#>About</a></li>
             <li><a href=#>Store</a></li>
-        </ul>
-        <ul>
-            <li><a href=#>Gmail</a></li>
-            <li><a href=#>Images</a></li>
-
+            <li style="float:right"><a href=# class=login>Sign in</a></li>
+            <li style="float:right"><a href=#>Images</a></li>
+            <li style="float:right"><a href=#>Gmail</a></li>
         </ul>
        
     </div>
 
-
+    <center>
     <div class="GoogleSearch">
         <div class=GoogleLogo>
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google.com">
-        </div>
+        
 
 <form>
-        <div class="searchform">
-            <input class="textbar" type="text" id="searchbar" name="searchbar" maxlength="2048">
-            <input type="submit" id="searchsubmit" name="searchsubmit">
+            <input class="textbar" type="text" id="searchbar" name="searchbar" maxlength="2048"> <br>
+            <input type="submit" value="Google Search" id="searchsubmit" name="searchsubmit">
+            <input type="submit" value="I'm Feeling Lucky" id="lucksubmit" name="lucksubmit">
         </div>
     </div>
+    </center>
 </form>
 
     <div class="footer">
@@ -44,14 +78,9 @@
             <li><a href=#>Advertising</a></li>
             <li><a href=#>Business</a></li>
             <li><a href=#>How Search Works</a></li>
+            <li style="float:right"><a href=#>Settings</a></li>
+            <li style="float:right "><a href=#>Terms</a></li>
+            <li style="float:right"><a href=#>Privacy</a></li>
         </ul>
-
-        <ul>
-            <li><a href=#>Privacy</a></li>
-            <li><a href=#>Terms</a></li>
-            <li><a href=#>Settings</a></li>
-        </ul>
-
-        <a href=# class=login>Sign in</a>
     </div>
 </body>
